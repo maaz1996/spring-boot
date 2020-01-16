@@ -26,6 +26,11 @@ public class ProductServiceController {
         almond.setId("2");
         almond.setName("Almond");
         productRepo.put(almond.getId(), almond);
+
+        final Product chashew = new Product();
+        chashew.setId("3");
+        chashew.setName("Chashew");
+        productRepo.put(chashew.getId(), chashew);
     }
 
     @RequestMapping(value = "/products/{id}", method = RequestMethod.DELETE)
