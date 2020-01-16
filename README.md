@@ -1,2 +1,3 @@
 # spring-boot
-Simple API on Spring-Boot based on MVC Model
+
+GET,POST, PUT, DELETE API on Spring-Boot JAVA Based on MVC Model
